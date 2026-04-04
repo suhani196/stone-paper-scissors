@@ -4,7 +4,7 @@ A fun **Stone Paper Scissors** game where you play
 against the computer, built using **HTML, CSS & JavaScript**.
 
 ## 🚀 Features
-- Player vs Computer mode
+- Player vs Computer mode 
 - Random computer move generation
 - Score tracking system
 - Win, Lose & Draw detection
@@ -23,3 +23,4 @@ against the computer, built using **HTML, CSS & JavaScript**.
 
 ## 👩‍💻 Developed By
 Suhani
+ meow
