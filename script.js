@@ -15,18 +15,18 @@ const genCompChoice = () => {
 }
 
 const drawGame = () => {
-    msg.innerText = "game was drow areeee yrrr";
+    msg.innerText = "game was drow";
 };
 
 const showWinner =(userWin,userChoice,compChoice) => {
     if(userWin){
         userScore++;
        userScorePara.innerText = userScore;
-      msg.innerText = `YOU WIN BKL! ${userChoice} beats${compChoice}`;
+      msg.innerText = `YOU WIN ! ${userChoice} beats${compChoice}`;
 }else{
          compScore++;
        compScorePara.innerText = compScore;
-     msg.innerText = `!abey chutiya haar gaaya ${compChoice} beats ${userChoice}`;
+     msg.innerText = `!lose ${compChoice} beats ${userChoice}`;
 }
 }
 const playGame =(userChoice) =>{
